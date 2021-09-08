@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+
+.header{
+    padding: 2rem;
+    text-align: center;
+}
+
+.header > .heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.header > .subheading{
+    font-weight: lighter;
+}
+
+.inputSection{
+    padding: 2rem;
+    text-align: center;
+}
+
+.inputSection > input{
+    margin: 1.5rem 0rem;
+    padding: 0.7rem;
+    border-radius: 5%;
+    border: 1px solid gray; 
+    outline: none;
+}
+
+.inputSection > button{
+    padding: 0.7rem;
+    border-radius: 5%;
+    border: 1px solid gray;
+}
+
+
+.outputSection{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 1.5rem 0rem; 
+}
+
+.outputTable{
+    display: table;
+    border: 1px solid gray;
+    margin: 1.5rem 0rem;
+}
+
+.outputTable > div{
+    display: table-row;
+}
+
+.outputTable > div > p{
+    display: table-cell;
+    border: 1px solid gray;
+    padding: 1rem;
+}

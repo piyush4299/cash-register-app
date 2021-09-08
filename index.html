@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register App</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <script src="./js/index.js"></script>
+</head>
+<body>
+    <div class="header">
+        <p class="heading">CASH REGISTER APP</p>
+        <p class="subheading">Enter the bill amount and cash given by the customer and know minimum number of notes to return.
+        </p>
+    </div>
+    <div class="inputSection">
+        <input class="billAmt" name="billAmt" type="text" placeholder="Enter bill amount"/><br />
+        <input class="cashGiven" name="cashGiven" type="text" placeholder="Enter cash given"/><br />
+        <button class="checkCash" onclick="evaluateCashReturn()">Check</button>
+    </div>
+
+    <div class="outputSection">
+        <p class="outputHeading">Return Change</p>
+        <div class="outputTable">
+            <div class="firstRow">
+                <p class="tableCell">No. of notes</p>
+                <p class="oneNote"></p>
+                <p class="fiveNote"></p>
+                <p class="tenNote"></p>
+                <p class="twentyNote"></p>
+                <p class="hundredNote"></p>
+                <p class="fivehundredNote"></p>
+                <p class="twothousandNote"></p>
+            </div>
+            <div class="secondRow">
+                <p>Notes</p>
+                <p>1</p>
+                <p>5</p>
+                <p>10</p>
+                <p>20</p>
+                <p>100</p>
+                <p>500</p>
+                <p>2000</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
